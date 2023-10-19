@@ -1,0 +1,41 @@
+{
+  "header": {
+    "features": "Fonctionnalités",
+    "testimonials": "Témoignages",
+    "pricing": "Tarifs",
+    "blog": "Blog",
+    "login": "Connexion",
+    "register": "Commencer maintenant"
+  },
+  "hero": {
+    "title": {
+      "before-highlight": "klaq.io",
+      "highlighted": "l’assistant personnel virtuel ",
+      "after-highlight": "pour les prestataires de l'événementiel"
+    },
+    "description": "Le logiciel de gestion dédié aux professionnels de l'événementiel",
+    "demo": "Demander une démo",
+    "beta": "Essayer gratuitement la version beta"
+  },
+  "pricing": {
+    "title": {
+      "before-highlight": "Quel ",
+      "highlighted": " Klaq",
+      "after-highlight": "allez-vous recruter ?"
+    },
+    "description": "",
+    "plan": {
+      "starter": {
+        "title": "Starter",
+        "price": "Gratuit",
+        "description": "Pour les prestataires de l'événementiel qui souhaitent gérer leurs événements et leurs clients"
+      }
+    }
+  },
+  "footer": {
+    "features": "Fonctionnalités",
+    "testimonials": "Témoignages",
+    "pricing": "Tarifs",
+    "blog": "Blog"
+  }
+}
