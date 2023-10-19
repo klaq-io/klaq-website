@@ -7,7 +7,8 @@ import { type Metadata } from 'next'
 export const metadata: Metadata = {
   title: {
     template: '%s - Klaq',
-    default: 'Klaq - Accounting made simple for small businesses',
+    default:
+      "Klaq - Le logiciel de gestion dédié aux professionnels de l'événementiel",
   },
   description:
     'Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off, and hope you don’t get audited.',
