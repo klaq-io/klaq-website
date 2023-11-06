@@ -38,21 +38,31 @@ export function Hero() {
         {intl.formatMessage({ id: 'hero.description' })}
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
-        <Button color="klaq" href="/register">
+        <Button
+          color="klaq"
+          target="_blank"
+          href="https://calendly.com/fermey-paul/entretien-avec-paul-fermey"
+        >
           {intl.formatMessage({
             id: 'hero.beta',
           })}
         </Button>
-        <Button
-          href="https://calendly.com/fermey-paul/entretien-avec-paul-fermey"
-          variant="outline"
-        >
+        <Button href="#" variant="outline">
           <svg
-            aria-hidden="true"
-            className="h-3 w-3 flex-none fill-klaq-600 group-active:fill-current"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            className="h-3 w-3 flex-none text-klaq-600"
           >
-            <path d="m9.997 6.91-7.583 3.447A1 1 0 0 1 1 9.447V2.553a1 1 0 0 1 1.414-.91L9.997 5.09c.782.355.782 1.465 0 1.82Z" />
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
+            />
           </svg>
+
           <span className="ml-3">
             {intl.formatMessage({
               id: 'hero.demo',

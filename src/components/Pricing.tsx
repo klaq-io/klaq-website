@@ -73,7 +73,7 @@ function Plan({
         featured ? 'order-first bg-klaq-600 py-8 lg:order-none' : 'lg:py-8',
       )}
     >
-      <h3 className="mt-5 font-display text-lg text-white">{name}</h3>
+      <h3 className="mt-5 font-display text-2xl text-white">{price}</h3>
       <p
         className={clsx(
           'mt-2 text-base',
@@ -83,7 +83,7 @@ function Plan({
         {description}
       </p>
       <p className="order-first font-display text-5xl font-light tracking-tight text-white">
-        {price}
+        {name}
       </p>
       <ul
         role="list"
@@ -146,45 +146,56 @@ export function Pricing() {
         </div>
         <div className="-mx-4 mt-16 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
           <Plan
-            name="Starter"
-            price="$9"
-            description="Good for anyone who is self-employed and just getting started."
+            name="Klaq Starter"
+            price="0€ par mois HT"
+            description="Découvrez Klaq gratuitement. Adapté aux utilisateurs occasionnels."
             href="/register"
             features={[
-              'Send 10 quotes and invoices',
-              'Connect up to 2 bank accounts',
-              'Track up to 15 expenses per month',
-              'Manual payroll support',
-              'Export up to 3 reports',
+              "Création d'évènement illimitée",
+              'Bibliothèque produits',
+              'Création de devis et de factures illimitée',
+              "Portefeuille client (jusqu'à 50 clients)",
+              "Synchronisation d'un calendrier (Apple, Google, Outlook...)",
+              'Récupération des informations des entreprises (SIRET, SIREN, TVA...)',
+              'Export comptable',
+              "Historique d'un an",
             ]}
           />
           <Plan
             featured
-            name="Small business"
-            price="$15"
-            description="Perfect for small / medium sized businesses."
+            name="Klaq Essentiel"
+            price="24.90€ par mois HT"
+            description="Parfait pour se lancer."
             href="/register"
             features={[
-              'Send 25 quotes and invoices',
-              'Connect up to 5 bank accounts',
-              'Track up to 50 expenses per month',
-              'Automated payroll support',
-              'Export up to 12 reports',
-              'Bulk reconcile transactions',
-              'Track in multiple currencies',
+              'Toutes les fonctionnalitées de Klaq Starter',
+              'Calcul des distances illimité',
+              "Synchronisation jusqu'à 5 calendriers",
+              "Portefeuille client (jusqu'à 1000 clients)",
+              'Inclut 10 signatures éléctroniques par mois',
+              'Template de email',
+              'Template de contrat',
+              'Création de feuille de route',
+              'Relance des impayés',
+              'Historique illimité',
+              'Suppression des mentions "Klaq"',
             ]}
           />
           <Plan
-            name="Enterprise"
-            price="$39"
-            description="For even the biggest enterprise companies."
+            name="Klaq Pro"
+            price="99.90€ par mois HT"
+            description="Accès premium avec toutes les fonctionnalités avancées."
             href="/register"
             features={[
-              'Send unlimited quotes and invoices',
-              'Connect up to 15 bank accounts',
-              'Track up to 200 expenses per month',
-              'Automated payroll support',
-              'Export up to 25 reports, including TPS',
+              'Toutes les fonctionnalitées de Klaq Essentiel',
+              'Gestion des devises étrangères',
+              'Portail client',
+              'Portefeuille client illimité',
+              'Signatures éléctroniques illimitées',
+              'Rappel des évènements',
+              'Réalisation de campagne marketing',
+              'Personnalisation de l’application',
+              'Assistant personnel virtuel',
             ]}
           />
         </div>
