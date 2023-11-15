@@ -147,25 +147,23 @@ export function Pricing() {
         <div className="-mx-4 mt-16 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
           <Plan
             name="Klaq Starter"
-            price="0€ par mois HT"
-            description="Découvrez Klaq gratuitement. Adapté aux utilisateurs occasionnels."
+            price="14,90€ par mois HT"
+            description="Simplifiez la coordination de vos événements en les centralisant pour une gestion efficace."
             href="/register"
             features={[
-              "Création d'évènement illimitée",
-              'Bibliothèque produits',
-              'Création de devis et de factures illimitée',
-              "Portefeuille client (jusqu'à 50 clients)",
-              "Synchronisation d'un calendrier (Apple, Google, Outlook...)",
-              'Récupération des informations des entreprises (SIRET, SIREN, TVA...)',
+              'Clients et événenements illimités',
+              'Devis et facturation',
+              'Paiement en ligne',
+              'Synchronisation avec votre calendrier',
+              'Intégration avec votre site internet',
               'Export comptable',
-              "Historique d'un an",
             ]}
           />
           <Plan
             featured
             name="Klaq Essentiel"
             price="24.90€ par mois HT"
-            description="Parfait pour se lancer."
+            description="Se développer grâce à des outils de productivité et d'automatisation supplémentaires."
             href="/register"
             features={[
               'Toutes les fonctionnalitées de Klaq Starter',
@@ -183,8 +181,8 @@ export function Pricing() {
           />
           <Plan
             name="Klaq Pro"
-            price="99.90€ par mois HT"
-            description="Accès premium avec toutes les fonctionnalités avancées."
+            price="35.90€ par mois HT"
+            description="Tout ce dont vous avez besoin pour créer une expérience client exceptionnelle."
             href="/register"
             features={[
               'Toutes les fonctionnalitées de Klaq Essentiel',
