@@ -148,14 +148,14 @@ export function Pricing() {
           <Plan
             name="Klaq Starter"
             price="14,90€ par mois HT"
-            description="Simplifiez la coordination de vos événements en les centralisant pour une gestion efficace."
+            description="Centralisez la coordination de vos événements pour une gestion efficace."
             href="/register"
             features={[
               'Clients et événenements illimités',
+              'Synchronisation avec votre calendrier',
               'Devis et facturation',
               'Paiement en ligne',
-              'Synchronisation avec votre calendrier',
-              'Intégration avec votre site internet',
+              'Formulaire de contact intégré à votre site',
               'Export comptable',
             ]}
           />
@@ -163,19 +163,15 @@ export function Pricing() {
             featured
             name="Klaq Essentiel"
             price="24.90€ par mois HT"
-            description="Se développer grâce à des outils de productivité et d'automatisation supplémentaires."
+            description="Simplifiez votre quotidien grâce à un pilotage automatique pour votre entreprise."
             href="/register"
             features={[
               'Toutes les fonctionnalitées de Klaq Starter',
-              'Calcul des distances illimité',
-              "Synchronisation jusqu'à 5 calendriers",
-              "Portefeuille client (jusqu'à 1000 clients)",
-              'Inclut 10 signatures éléctroniques par mois',
-              'Template de email',
-              'Template de contrat',
-              'Création de feuille de route',
-              'Relance des impayés',
-              'Historique illimité',
+              'Automatisation',
+              'Relance des factures impayées',
+              'Outils d\'analyses',
+              'Génération de feuille de route',
+              'Réalisation de campagne marketing',
               'Suppression des mentions "Klaq"',
             ]}
           />
@@ -186,14 +182,11 @@ export function Pricing() {
             href="/register"
             features={[
               'Toutes les fonctionnalitées de Klaq Essentiel',
+              'Portail Client',
+              'Signature électronique',
+              'Modèle de mails et de contrats',
               'Gestion des devises étrangères',
-              'Portail client',
-              'Portefeuille client illimité',
-              'Signatures éléctroniques illimitées',
-              'Rappel des évènements',
-              'Réalisation de campagne marketing',
               'Personnalisation de l’application',
-              'Assistant personnel virtuel',
             ]}
           />
         </div>
