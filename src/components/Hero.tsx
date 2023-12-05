@@ -29,7 +29,7 @@ export function Hero() {
           </svg>
 
           <span className="relative">
-            {intl.formatMessage({ id: 'hero.title.highlighted' })}
+           {intl.formatMessage({ id: 'hero.title.highlighted' })}
           </span>
         </span>{' '}
         {intl.formatMessage({ id: 'hero.title.after-highlight' })}
@@ -52,13 +52,13 @@ export function Hero() {
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
-            stroke-width="1.5"
+            strokeWidth="1.5"
             stroke="currentColor"
             className="h-3 w-3 flex-none text-klaq-600"
           >
             <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
               d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
             />
           </svg>
@@ -70,7 +70,7 @@ export function Hero() {
           </span>
         </Button>
       </div>
-      <div className="mt-36 lg:mt-44">
+      {/* <div className="mt-36 lg:mt-44">
         <p className="font-display text-base text-slate-900">
           Trusted by these six companies so far
         </p>
@@ -104,7 +104,7 @@ export function Hero() {
             </li>
           ))}
         </ul>
-      </div>
+      </div> */}
     </Container>
   )
 }

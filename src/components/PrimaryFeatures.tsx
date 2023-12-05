@@ -14,25 +14,25 @@ import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
 
 const features = [
   {
-    title: 'Management optimisé des événements',
+    title: 'Gérez votre planning d\'une main de maitre',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique quis tempor at, consequat ut arcu.',
+      'Klaq se synchronise avec votre calendrier pour y ajouter vos événements et partagez le avec vos proches.',
     image: screenshotPayroll,
   },
   {
-    title: 'Automatisations',
+    title: 'Éditez vos devis, contrat, et facture en clic',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique quis tempor at, consequat ut arcu.',
+      'Créez une bibliothèque de produits, et Klaq auto-complète les adresses et les informations de société de votre prospect grâce à une connexion à la base INSEE. Fini les copier-coller.',
     image: screenshotExpenses,
   },
   {
-    title: 'Plateforme client et paiement en ligne',
+    title: 'Réduisez vos impayés grâce au paiement en ligne',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique quis tempor at, consequat ut arcu.',
     image: screenshotVatReturns,
   },
   {
-    title: 'Formulaire intelligent',
+    title: 'Pilotez votre activité',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique quis tempor at, consequat ut arcu.',
     image: screenshotReporting,
@@ -76,10 +76,10 @@ export function PrimaryFeatures() {
       <Container className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-            L'assistant personnel virtuel idéal
+            Votre boîte à outil idéale
           </h2>
           <p className="mt-6 text-lg tracking-tight text-klaq-100">
-            Spécialement conçu pour et par les prestataires de l'industrie
+            Spécialement conçue pour et par les prestataires de l'industrie
             événementielle.
           </p>
         </div>

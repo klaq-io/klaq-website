@@ -140,62 +140,52 @@ export function Pricing() {
             })}
           </h2>
           <p className="mt-4 text-lg text-slate-400">
-            It doesn’t matter what size your business is, our software won’t
-            work well for you.
+            Développez votre art, en vendant plus et mieux.
           </p>
         </div>
         <div className="-mx-4 mt-16 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
           <Plan
             name="Klaq Starter"
-            price="0€ par mois HT"
-            description="Découvrez Klaq gratuitement. Adapté aux utilisateurs occasionnels."
+            price="14,90€ par mois HT"
+            description="Centralisez la coordination de vos événements pour une gestion efficace."
             href="/register"
             features={[
-              "Création d'évènement illimitée",
-              'Bibliothèque produits',
-              'Création de devis et de factures illimitée',
-              "Portefeuille client (jusqu'à 50 clients)",
-              "Synchronisation d'un calendrier (Apple, Google, Outlook...)",
-              'Récupération des informations des entreprises (SIRET, SIREN, TVA...)',
+              'Clients et événenements illimités',
+              'Synchronisation avec votre calendrier',
+              'Devis et facturation',
+              'Paiement en ligne',
+              'Formulaire de contact intégré à votre site',
               'Export comptable',
-              "Historique d'un an",
             ]}
           />
           <Plan
             featured
             name="Klaq Essentiel"
             price="24.90€ par mois HT"
-            description="Parfait pour se lancer."
+            description="Simplifiez votre quotidien grâce à un pilotage automatique pour votre entreprise."
             href="/register"
             features={[
               'Toutes les fonctionnalitées de Klaq Starter',
-              'Calcul des distances illimité',
-              "Synchronisation jusqu'à 5 calendriers",
-              "Portefeuille client (jusqu'à 1000 clients)",
-              'Inclut 10 signatures éléctroniques par mois',
-              'Template de email',
-              'Template de contrat',
-              'Création de feuille de route',
-              'Relance des impayés',
-              'Historique illimité',
+              'Automatisation',
+              'Relance des factures impayées',
+              'Outils d\'analyses',
+              'Génération de feuille de route',
+              'Réalisation de campagne marketing',
               'Suppression des mentions "Klaq"',
             ]}
           />
           <Plan
             name="Klaq Pro"
-            price="99.90€ par mois HT"
-            description="Accès premium avec toutes les fonctionnalités avancées."
+            price="35.90€ par mois HT"
+            description="Tout ce dont vous avez besoin pour créer une expérience client exceptionnelle."
             href="/register"
             features={[
               'Toutes les fonctionnalitées de Klaq Essentiel',
+              'Portail Client',
+              'Signature électronique',
+              'Modèle de mails et de contrats',
               'Gestion des devises étrangères',
-              'Portail client',
-              'Portefeuille client illimité',
-              'Signatures éléctroniques illimitées',
-              'Rappel des évènements',
-              'Réalisation de campagne marketing',
               'Personnalisation de l’application',
-              'Assistant personnel virtuel',
             ]}
           />
         </div>
