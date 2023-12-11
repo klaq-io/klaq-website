@@ -54,9 +54,9 @@ const features: Array<Feature> = [
     },
   },
   {
-    name: 'Inventory',
+    name: '',
     summary:
-      'Never lose track of what’s in stock with accurate inventory tracking.',
+      'Centralisez ',
     description:
       'We don’t offer this as part of our software but that statement is inarguably true. Accurate inventory tracking would help you for sure.',
     image: screenshotInventory,

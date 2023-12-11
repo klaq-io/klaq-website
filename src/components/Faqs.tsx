@@ -6,18 +6,18 @@ import backgroundImage from '@/images/background-faqs.jpg'
 const faqs = [
   [
     {
-      question: 'Does Klaq handle VAT?',
+      question: 'Klaq, c\'est quoi ? ',
       answer:
-        'Well no, but if you move your company offshore you can probably ignore it.',
+        'Klaq est l\'outil logiciel idéal pour ceux dont l\'agenda est constamment ponctué d\'événements. L\'objectif est simple : vous faire gagner du temps pour être créatif.', 
     },
     {
-      question: 'Can I pay for my subscription via purchase order?',
-      answer: 'Absolutely, we are happy to take your money in all forms.',
+      question: 'Quelles sont les principales fonctionnalités ?',
+      answer: 'Klaq harmonise les fonctionnalités d\'un agenda, d\'un logiciel de facturation électronique et d\'un CRM en les interconnectant de manière fluide.',
     },
     {
-      question: 'How do I apply for a job at Klaq?',
+      question: 'Est-ce-que je peux essayer Klaq ?',
       answer:
-        'We only hire our customers, so subscribe for a minimum of 6 months and then let’s talk.',
+        'Klaq est actuellement en beta test, et est totalement gratuit !',
     },
   ],
   [
@@ -78,11 +78,10 @@ export function Faqs() {
             id="faq-title"
             className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl"
           >
-            Frequently asked questions
+            Foire aux questions
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            If you can’t find what you’re looking for, email our support team
-            and if you’re lucky someone will get back to you.
+            Si vous ne trouvez pas la réponse à votre question, vous pouvez nous contacter en utilisant le formulaire de contact.
           </p>
         </div>
         <ul
