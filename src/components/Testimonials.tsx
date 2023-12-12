@@ -11,19 +11,19 @@ const testimonials = [
   [
     {
       content:
-        'Klaq is so easy to use I can’t help but wonder if it’s really doing the things the government expects me to do.',
+        'Klaq est l\'outil de pilotage de mon activité dont je rêvais. Maintenant je ne peux plus m\'en passais, je ne sais pas comment j\' fait pour vivre sans. ',
       author: {
-        name: 'Sheryl Berge',
-        role: 'CEO at Lynch LLC',
+        name: 'Ambre S.',
+        role: 'Photographe',
         image: avatarImage1,
       },
     },
     {
       content:
-        'I’m trying to get a hold of someone in support, I’m in a lot of trouble right now and they are saying it has something to do with my books. Please get back to me right away.',
+        'Si je n\'ai qu\'un seul conseil à donner : essayer Klaq sans plus tarder',
       author: {
-        name: 'Amy Hahn',
-        role: 'Director at Velocity Industries',
+        name: 'Paul K',
+        role: 'Conférencier',
         image: avatarImage4,
       },
     },
@@ -31,19 +31,19 @@ const testimonials = [
   [
     {
       content:
-        'The best part about Klaq is every time I pay my employees, my bank balance doesn’t go down like it used to. Looking forward to spending this extra cash when I figure out why my card is being declined.',
+        'Fini pour moi la gestion administrative et les délais de mes réponses à mes demandes entrantes ! Avec Klaq, je réponds en deux clics à mes prospects, et ça change tout ! Plus rapide, plus de contrats, plus de temps perso !',
       author: {
-        name: 'Leland Kiehn',
-        role: 'Founder of Kiehn and Sons',
+        name: 'Marc F',
+        role: 'Loueur de mobiliers',
         image: avatarImage5,
       },
     },
     {
       content:
-        'There are so many things I had to do with my old software that I just don’t do at all with Klaq. Suspicious but I can’t say I don’t love it.',
+        'Klaq est le collègue idéal, celui qui fait tout à votre place (et qui ne râle pas !)',
       author: {
-        name: 'Erin Powlowski',
-        role: 'COO at Armstrong Inc',
+        name: 'Erin P',
+        role: 'Magicien',
         image: avatarImage2,
       },
     },
@@ -51,19 +51,19 @@ const testimonials = [
   [
     {
       content:
-        'I used to have to remit tax to the EU and with Klaq I somehow don’t have to do that anymore. Nervous to travel there now though.',
+        'En un clic, j\'envoie mes devis et factures, mais quel gain de temps !!!',
       author: {
-        name: 'Peter Renolds',
-        role: 'Founder of West Inc',
+        name: 'Romane L',
+        role: 'Danceuse',
         image: avatarImage3,
       },
     },
     {
       content:
-        'This is the fourth email I’ve sent to your support team. I am literally being held in jail for tax fraud. Please answer your damn emails, this is important.',
+        'Fini pour moi de calculer les frais de déplacement à la main ou rentrer les informations du client, c\'est génial !',
       author: {
-        name: 'Amy Hahn',
-        role: 'Director at Velocity Industries',
+        name: 'Amy H',
+        role: 'Photographe',
         image: avatarImage4,
       },
     },
@@ -88,12 +88,10 @@ export function Testimonials() {
       <Container>
         <div className="mx-auto max-w-2xl md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-            Loved by businesses worldwide.
+            Ils en parlent mieux que nous :
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Our software is so simple that people can’t help but fall in love
-            with it. Simplicity is easy when you just skip tons of
-            mission-critical features.
+            
           </p>
         </div>
         <ul

@@ -20,10 +20,10 @@ interface Feature {
 
 const features: Array<Feature> = [
   {
-    name: 'Reporting',
-    summary: 'Stay on top of things with always up-to-date reporting features.',
+    name: '',
+    summary: 'Augmentez vos revenus',
     description:
-      'We talked about reporting in the section above but we needed three items here, so mentioning it one more time for posterity.',
+      'Gérez vos demandes à un seul endroit, envoyez des devis à vos prospects en un clic. Ne perdez plus de temps, tout est sur pilote automatique pour vous faire gagner un maximum de temps.',
     image: screenshotProfitLoss,
     icon: function ReportingIcon() {
       let id = useId()
@@ -54,9 +54,9 @@ const features: Array<Feature> = [
     },
   },
   {
-    name: 'Inventory',
+    name: '',
     summary:
-      'Never lose track of what’s in stock with accurate inventory tracking.',
+      'Centralisez ',
     description:
       'We don’t offer this as part of our software but that statement is inarguably true. Accurate inventory tracking would help you for sure.',
     image: screenshotInventory,

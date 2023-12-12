@@ -16,19 +16,19 @@ const features = [
   {
     title: 'Gérez votre planning d\'une main de maitre',
     description:
-      'Klaq se synchronise avec votre calendrier pour y ajouter vos événements et partagez le avec vos proches.',
+      'Klaq se synchronise avec votre calendrier pour y ajouter vos événements. Vous pouvez même le partager avec vos proches.',
     image: screenshotPayroll,
   },
   {
     title: 'Éditez vos devis, contrat, et facture en clic',
     description:
-      'Créez une bibliothèque de produits, et Klaq auto-complète les adresses et les informations de société de votre prospect grâce à une connexion à la base INSEE. Fini les copier-coller.',
+      'Créez une bibliothèque de produits, et Klaq auto-complète les adresses et les informations de société de votre prospect.',
     image: screenshotExpenses,
   },
   {
-    title: 'Réduisez vos impayés grâce au paiement en ligne',
+    title: 'Réduisez vos impayés',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique quis tempor at, consequat ut arcu.',
+      'Grâce à la relance automatique des factures impayées et au paiement en ligne.',
     image: screenshotVatReturns,
   },
   {
