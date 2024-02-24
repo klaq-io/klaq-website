@@ -7,7 +7,7 @@ import { Logo } from '@/components/Logo'
 export function Beta() {
   return (
     <div className="relative flex h-full w-full flex-col items-center justify-center rounded-md bg-neutral-950 antialiased">
-      <Logo className="absolute left-0 top-0 z-10 h-10 w-auto justify-center" />
+      {/* <Logo className="absolute left-0 top-0 z-10 h-10 w-auto justify-center" /> */}
       <div className="mx-auto max-w-2xl p-4">
         <h1 className="relative z-10 flex items-center  space-x-4 bg-gradient-to-b from-neutral-200 to-neutral-600 bg-clip-text  text-center font-sans text-lg font-bold text-transparent md:text-7xl">
           Rejoindre Klaq
