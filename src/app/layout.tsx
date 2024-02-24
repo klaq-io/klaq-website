@@ -7,11 +7,9 @@ import { type Metadata } from 'next'
 export const metadata: Metadata = {
   title: {
     template: '%s - Klaq',
-    default:
-      "Klaq - Le logiciel de gestion dédié aux professionnels de l'événementiel",
+    default: 'Klaq - Boostez votre créativité en vous libérant du temps ⚡',
   },
-  description:
-    'Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off, and hope you don’t get audited.',
+  description: 'La plateforme tout-en-un dédiée aux prestataires événementiels',
 }
 
 const inter = Inter({
