@@ -10,14 +10,13 @@ export function Beta() {
       {/* <Logo className="absolute left-0 top-0 z-10 h-10 w-auto justify-center" /> */}
       <div className="mx-auto max-w-2xl p-4">
         <h1 className="relative z-10 flex items-center  space-x-4 bg-gradient-to-b from-neutral-200 to-neutral-600 bg-clip-text  text-center font-sans text-lg font-bold text-transparent md:text-7xl">
-          Rejoindre Klaq
+          Simplifiez votre quotidien d'artiste-entrepreneur !
         </h1>
         <p></p>
         <p className="relative z-10 mx-auto my-2 max-w-lg text-center text-sm text-neutral-500">
-          La plateforme tout-en-un dédiée aux prestataires événementiels. Il est
-          temps de reprendre le contrôle de votre temps. Demandez une
-          démonstration pour comprendre comment transformer votre quotidien en
-          un moment productif.
+          Klaq est LA plateforme tout-en-un dédiée aux prestataires événementiels. Gérez au même endroit votre cycle de vente, vos factures et encore plus. 
+          Notre mantra : booster votre créativité en simplifiant votre quotidien !
+
         </p>
         <div className="flex items-center justify-center">
           <Button
@@ -25,7 +24,7 @@ export function Beta() {
             color="white"
             className="relative z-10 mt-10 text-center"
           >
-            Essayer gratuitement la version beta !
+            Essayer gratuitement klaq !
           </Button>
         </div>
       </div>
