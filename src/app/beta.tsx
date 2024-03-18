@@ -10,7 +10,7 @@ export function Beta() {
       {/* <Logo className="absolute left-0 top-0 z-10 h-10 w-auto justify-center" /> */}
       <div className="mx-auto max-w-2xl p-4">
         <h1 className="relative z-10 flex items-center  space-x-4 bg-gradient-to-b from-neutral-200 to-neutral-600 bg-clip-text  text-center font-sans text-lg font-bold text-transparent md:text-7xl">
-          Simplifiez votre quotidien d'artiste-entrepreneur !
+          Simplifiez votre quotidien d'artiste !
         </h1>
         <p></p>
         <p className="relative z-10 mx-auto my-2 max-w-lg text-center text-sm text-neutral-500">
