@@ -13,7 +13,6 @@ export const metadata: Metadata = {
 export default function Register() {
   return (
     <SlimLayout>
-      <meta name="robots" content="noindex">
       <div className="flex">
         <Link href="/" aria-label="Home">
           <Logo className="h-10 w-auto" />
